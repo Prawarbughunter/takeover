@@ -8,9 +8,9 @@ type Fingerprint struct {
 	documentation string
 }
 
-func Fingerprints() [22]Fingerprint {
+func Fingerprints() [35]Fingerprint {
 
-	var fingerprints [22]Fingerprint
+	var fingerprints [35]Fingerprint
 
 	fingerprints[0] = Fingerprint{
 		"AWS/S3",
@@ -175,7 +175,7 @@ func Fingerprints() [22]Fingerprint {
 	fingerprints[20] = Fingerprint{
 		"Wordpress",
 		"Vulnerable",
-		"Do you want to register ",
+		"Do you want to register",
 		"https://hackerone.com/reports/274336",
 		"Not available",
 	}
@@ -275,6 +275,185 @@ func Fingerprints() [22]Fingerprint {
 		"Digital Ocean",
 		"Vulnerable",
 		"Domain uses DO name serves with no records in DO",
+		"Not available",
+		"Not available",
+	}
+	fingerprints[35] = Fingerprint{
+		"Frontify",
+		"Vulnerable",
+		"Oops… looks like you got lost",
+		"Not available",
+		"Not available",
+	}
+	fingerprints[36] = Fingerprint{
+		"Gemfury",
+		"Vulnerable",
+		"404: This page could not be found.",
+		"Not available",
+		"Not available",
+	}
+	fingerprints[37] = Fingerprint{
+		"Google Cloud Storage",
+		"Vulnerable",
+		"NoSuchBucket The specified bucket does not exist.",
+		"Not available",
+		"Not available",
+	}
+	fingerprints[38] = Fingerprint{
+		"Getresponse",
+		"Vulnerable",
+		"With GetResponse Landing Pages, lead generation has never been easier",
+		"Not available",
+		"Not available",
+	}fingerprints[39] = Fingerprint{
+		"HatenaBlog",
+		"Vulnerable",
+		"404 Blog is not found",
+		"Not available",
+		"Not available",
+	}fingerprints[40] = Fingerprint{
+		"Helprace",
+		"Vulnerable",
+		"Alias not configured!",
+		"Not available",
+		"Not available",
+	}fingerprints[41] = Fingerprint{
+		"Hubspot",
+		"Vulnerable",
+		"Domain not found",
+		"Not available",
+		"Not available",
+	}
+	fingerprints[42] = Fingerprint{
+		"Intercom",
+		"Vulnerable",
+		"This page is reserved for artistic dogs.",
+		"Not available",
+		"Not available",
+	}
+	fingerprints[43] = Fingerprint{
+		"Jazzhr",
+		"Vulnerable",
+		"This account no longer active",
+		"Not available",
+		"Not available",
+	}
+	fingerprints[44] = Fingerprint{
+		"Kinsta",
+		"Vulnerable",
+		"No Site For Domain",
+		"Not available",
+		"Not available",
+	}
+	fingerprints[45] = Fingerprint{
+		"LaunchRock",
+		"Vulnerable",
+		"It looks like you may have taken a wrong turn somewhere. Don't worry...it happens to all of us",
+		"Not available",
+		"Not available",
+	}
+	fingerprints[46] = Fingerprint{
+		"Landingi",
+		"Vulnerable",
+		"It looks like you're lost",
+		"Not available",
+		"Not available",
+	}
+	fingerprints[47] = Fingerprint{
+		"Ngrok",
+		"Vulnerable",
+		"ngrok.io not found",
+		"Not available",
+		"Not available",
+	}
+	fingerprints[48] = Fingerprint{
+		"Pantheon",
+		"Vulnerable",
+		"The gods are wise, but do not know of the site which you seek.",
+		"Not available",
+		"Not available",
+	}
+	fingerprints[49] = Fingerprint{
+		"Pingdom",
+		"Vulnerable",
+		"Public Report Not Activated",
+		"Not available",
+		"Not available",
+	}
+	fingerprints[50] = Fingerprint{
+		"Proposify",
+		"Vulnerable",
+		"If you need immediate assistance, please contact <a href="mailto:support@proposify.biz	",
+		"Not available",
+		"Not available",
+	}
+	fingerprints[51] = Fingerprint{
+		"Readthedocs",
+		"Vulnerable",
+		"unknown to Read the Docs",
+		"Not available",
+		"Not available",
+	}
+	fingerprints[52] = Fingerprint{
+		"SmartJobBoard",
+		"Vulnerable",
+		"Job Board Is Unavailable",
+		"Not available",
+		"Not available",
+	}
+	fingerprints[53] = Fingerprint{
+		"Strikingly",
+		"Vulnerable",
+		"But if you're looking to build your own website",
+		"Not available",
+		"Not available",
+	}
+	fingerprints[54] = Fingerprint{
+		"Simplebooklet",
+		"Vulnerable",
+		"We can't find this <a href="https://simplebooklet.com",
+		"Not available",
+		"Not available",
+	}
+	fingerprints[55] = Fingerprint{
+		"Smugmug",
+		"Vulnerable",
+		"Smugmug",
+		"Not available",
+		"Not available",
+	}
+	fingerprints[56] = Fingerprint{
+		"Surveygizmo",
+		"Vulnerable",
+		"data-html-name",
+		"Not available",
+		"Not available",
+	}
+	fingerprints[57] = Fingerprint{
+		"Tave",
+		"Vulnerable",
+		"<h1>Error 404: Page Not Found</h1>",
+		"Not available",
+		"Not available",
+	}
+	fingerprints[58] = Fingerprint{
+		"Teamwork",
+		"Vulnerable",
+		"Oops - We didn't find your site.",
+		"Not available",
+		"Not available",
+	}
+	fingerprints[59] = Fingerprint{
+		"Tictail",
+		"Vulnerable",
+		"Building a brand of your own?",
+		"Not available",
+		"Not available",
+	}
+	fingerprints[60] = Fingerprint{
+		"Wufoo",
+		"Vulnerable",
+		"Profile not found",
 		"Not available",
 		"Not available",
 	}
