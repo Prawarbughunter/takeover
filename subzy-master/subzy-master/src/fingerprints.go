@@ -8,9 +8,9 @@ type Fingerprint struct {
 	documentation string
 }
 
-func Fingerprints() [35]Fingerprint {
+func Fingerprints() [61]Fingerprint {
 
-	var fingerprints [35]Fingerprint
+	var fingerprints [61]Fingerprint
 
 	fingerprints[0] = Fingerprint{
 		"AWS/S3",
