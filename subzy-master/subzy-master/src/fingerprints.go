@@ -38,9 +38,9 @@ func Fingerprints() [22]Fingerprint {
 
 	fingerprints[3] = Fingerprint{
 		"Desk",
-		"Not vulnerable",
-		"Please try again or try Desk.com free for 14 days.",
-		"https://github.com/EdOverflow/can-i-take-over-xyz/issues/9",
+		"Vulnerable",
+		"this help center no longer exists",
+		"not Available",
 		"Not available",
 	}
 
@@ -233,6 +233,48 @@ func Fingerprints() [22]Fingerprint {
 		"Brightcove",
 		"Vulnerable",
 		"<p class="bc-gallery-error-code">Error Code: 404</p>",
+		"Not available",
+		"Not available",
+	}
+	fingerprints[29] = Fingerprint{
+		"Campaign Monitor",
+		"Vulnerable",
+		"<strong>Trying to access your account?</strong>",
+		"Not available",
+		"Not available",
+	}
+	fingerprints[30] = Fingerprint{
+		"Fly.io",
+		"Vulnerable",
+		"404 Not Found",
+		"Not available",
+		"Not available",
+	}
+	fingerprints[31] = Fingerprint{
+		"Canny",
+		"Vulnerable",
+		"Company Not Found",
+		"Not available",
+		"Not available",
+	}
+	fingerprints[32] = Fingerprint{
+		"Cargo",
+		"Vulnerable",
+		"If you're moving your domain away from Cargo you must make this configuration through your registrar's DNS control panel.",
+		"Not available",
+		"Not available",
+	}
+	fingerprints[33] = Fingerprint{
+		"Cargo Collective",
+		"Vulnerable",
+		"<div class="notfound">",
+		"Not available",
+		"Not available",
+	}
+	fingerprints[34] = Fingerprint{
+		"Digital Ocean",
+		"Vulnerable",
+		"Domain uses DO name serves with no records in DO",
 		"Not available",
 		"Not available",
 	}
