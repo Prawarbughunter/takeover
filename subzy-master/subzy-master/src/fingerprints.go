@@ -187,6 +187,56 @@ func Fingerprints() [22]Fingerprint {
 		"https://github.com/EdOverflow/can-i-take-over-xyz/issues/23",
 		"https://support.zendesk.com/hc/en-us/articles/203664356-Changing-the-address-of-your-Help-Center-subdomain-host-mapping-",
 	}
+	fingerprints[22] = Fingerprint{
+		"Aftership",
+		"Vulnerable",
+		"Oops.</h2><p class="text-muted text-tight">The page you're looking for doesn't exist.",
+		"Not available",
+		"Not available",
+	}
+	fingerprints[23] = Fingerprint{
+		"Agile CRM",
+		"Vulnerable",
+		"Sorry, this page is no longer available",
+		"Not available",
+		"Not available",
+	}
+	fingerprints[24] = Fingerprint{
+		"Aha",
+		"Vulnerable",
+		"There is no portal here ... sending you back to Aha!",
+		"Not available",
+		"Not available",
+	}
+	fingerprints[25] = Fingerprint{
+		"Airee.ru",
+		"Vulnerable",
+		"Ошибка 402. Сервис Айри.рф не оплачен",
+		"Not available",
+		"Not available",
+	}
+	fingerprints[26] = Fingerprint{
+		"Anima",
+		"Vulnerable",
+		"If this is your website and you've just created it, try refreshing in a minute",
+		"Not available",
+		"Not available",
+	}
+	fingerprints[27] = Fingerprint{
+		"Bigcartel",
+		"Vulnerable",
+		"<h1>Oops! We couldn&#8217;t find that page.</h1>",
+		"Not available",
+		"Not available",
+	}
+	fingerprints[28] = Fingerprint{
+		"Brightcove",
+		"Vulnerable",
+		"<p class="bc-gallery-error-code">Error Code: 404</p>",
+		"Not available",
+		"Not available",
+	}
+
 
 	return fingerprints
 }
