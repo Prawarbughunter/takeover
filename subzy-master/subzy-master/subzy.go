@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/lukasikic/subzy/src"
+	"github.com/Prawarbughunter/takeover/blob/main/subzy-master/subzy-master/subzy.go"
 	"flag"
 	"fmt"
 	"os"
